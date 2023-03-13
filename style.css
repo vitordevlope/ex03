@@ -1,0 +1,43 @@
+/* estilo para o título h1 */
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  /* estilo para o parágrafo de introdução */
+  p:first-of-type {
+    font-size: 1.2em;
+    text-align: justify;
+    margin: 1em 0;
+  }
+  
+  /* estilo para as imagens */
+  img {
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+    animation: moveLeftRight 1s ease-in-out infinite;
+  }
+  
+  /* animação para mover as imagens para a direita e para a esquerda */
+  @keyframes moveLeftRight {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(-40);
+    }
+  }
+  /* estilo para o rodapé */
+  footer {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  
