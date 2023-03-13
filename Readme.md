@@ -1,2 +1,3 @@
-Esse é um projeto básico de uma criação de listas com tags &ltul&gt
-Esse arquivo de leitura foi alterado!
+Esse é um projeto básico em HTML<br>
+Esse arquivo de leitura foi alterado!<br>
+Esse arquivo foi alterado novamente
